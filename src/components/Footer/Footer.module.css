@@ -316,9 +316,22 @@
 
   .contactList li {
     justify-content: center;
+    text-align: center;
     font-size: 15px;
     line-height: 1.5;
     color: rgba(255, 255, 255, 0.6);
+  }
+
+  /* Endereço quebra em 2 linhas: alinha o ícone no topo do texto
+     em vez de centralizado no meio do bloco */
+  .contactList li:nth-child(2) {
+    align-items: flex-start;
+    max-width: 300px;
+    margin: 0 auto;
+  }
+
+  .contactList li:nth-child(2) svg {
+    margin-top: 3px;
   }
 
   /* Bottom centralizado no mobile */

@@ -8,15 +8,6 @@ const services = [
     description: 'Estruturas robustas e planejadas para indústrias de médio e grande porte, com vãos livres e pé-direito elevado.',
     category: 'Industrial',
     image: '/3.webp', // Caminho direto para a pasta public
-    icon: (
-      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="8" y="28" width="48" height="28" rx="1"/>
-        <path d="M4 28L32 8l28 20"/>
-        <rect x="24" y="36" width="16" height="20"/>
-        <rect x="12" y="34" width="10" height="10"/>
-        <rect x="42" y="34" width="10" height="10"/>
-      </svg>
-    ),
     features: ['Vãos livres até 30m', 'Pé-direito personalizado', 'Estrutura 100% pré-moldada']
   },
   {
@@ -24,17 +15,7 @@ const services = [
     title: 'Centros de Distribuição',
     description: 'Soluções logísticas com grande área de armazenagem, docas e fluxo otimizado para operações eficientes.',
     category: 'Logística',
-    image: '/2.webp',
-    icon: (
-      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="4" y="24" width="56" height="32" rx="1"/>
-        <path d="M4 24L32 4l28 20"/>
-        <rect x="8" y="40" width="14" height="16"/>
-        <rect x="26" y="40" width="12" height="16"/>
-        <rect x="44" y="40" width="12" height="16"/>
-        <line x1="18" y1="32" x2="46" y2="32"/>
-      </svg>
-    ),
+    image: '/galpao.webp',
     features: ['Área ampla e modular', 'Estrutura para empilhadeiras', 'Piso de alta resistência']
   },
   {
@@ -43,17 +24,6 @@ const services = [
     description: 'Estruturas projetadas para armazenamento de grãos, fertilizantes e insumos com proteção contra intempéries.',
     category: 'Agrícola',
     image: '/1.webp',
-    icon: (
-      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="10" y="26" width="44" height="30" rx="1"/>
-        <path d="M6 26L32 10l26 16"/>
-        <rect x="18" y="38" width="10" height="18"/>
-        <rect x="36" y="38" width="10" height="18"/>
-        <path d="M10 36h44"/>
-        <circle cx="23" cy="43" r="2"/>
-        <circle cx="41" cy="43" r="2"/>
-      </svg>
-    ),
     features: ['Ventilação natural', 'Proteção contra umidade', 'Estrutura durável']
   },
   {
@@ -61,57 +31,28 @@ const services = [
     title: 'Galpões Comerciais',
     description: 'Espaços versáteis para comércios, showrooms e lojas, com fachada moderna e acabamento personalizado.',
     category: 'Comercial',
-    image: '/1.webp',
-    icon: (
-      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="6" y="20" width="52" height="36" rx="2"/>
-        <path d="M6 20L32 6l26 14"/>
-        <rect x="14" y="36" width="36" height="20"/>
-        <rect x="26" y="30" width="12" height="10"/>
-        <line x1="6" y1="30" x2="58" y2="30"/>
-      </svg>
-    ),
+    image: '/barracao.webp',
     features: ['Fachada personalizável', 'Acabamento premium', 'Iluminação natural']
   },
   {
-    id: 5,
-    title: 'Estruturas Mistas',
-    description: 'Solução híbrida combinando concreto pré-moldado com cobertura metálica para máxima eficiência.',
-    category: 'Industrial',
-    image: '/2.webp',
-    icon: (
-      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="8" y="30" width="48" height="26" rx="1"/>
-        <path d="M4 30L32 8l28 22"/>
-        <line x1="20" y1="30" x2="20" y2="56"/>
-        <line x1="32" y1="30" x2="32" y2="56"/>
-        <line x1="44" y1="30" x2="44" y2="56"/>
-        <rect x="22" y="40" width="20" height="16"/>
-      </svg>
-    ),
-    features: ['Custo-benefício', 'Montagem rápida', 'Versatilidade de uso']
-  },
+   id: 5,
+   title: 'Estruturas Pré-Moldados de Concreto',
+   description: 'Estruturas 100% em concreto pré-moldado, projetadas para alta durabilidade, resistência e baixa manutenção.',
+   category: 'Industrial',
+   image: '/estrutura.webp',
+   features: ['Alta durabilidade', 'Baixa manutenção', 'Resistência ao fogo', 'Vida útil prolongada']
+  } ,
   {
     id: 6,
-    title: 'Galpões com Mezanino',
-    description: 'Aproveitamento máximo do espaço vertical com estrutura para mezanino, ideal para escritórios e estoque.',
-    category: 'Comercial',
-    image: '/3.webp',
-    icon: (
-      <svg viewBox="0 0 64 64" fill="none" stroke="currentColor" strokeWidth="1.5">
-        <rect x="8" y="26" width="48" height="30" rx="1"/>
-        <path d="M4 26L32 6l28 20"/>
-        <line x1="8" y1="42" x2="56" y2="42"/>
-        <rect x="14" y="44" width="12" height="12"/>
-        <rect x="38" y="44" width="12" height="12"/>
-        <rect x="20" y="28" width="24" height="14"/>
-      </svg>
-    ),
-    features: ['2x mais área útil', 'Estrutura reforçada', 'Flexibilidade de layout']
+    title: 'Fundações In Loco',
+    description: 'Execução de fundações moldadas in loco com controle técnico rigoroso, garantindo estabilidade e segurança para qualquer porte de obra.',
+    category: 'Fundações',
+    video: '/video.mp4',
+    features: ['Controle técnico em obra', 'Concreto usinado de alta resistência', 'Base sólida para qualquer estrutura']
   },
 ]
 
-const categories = ['Todos', 'Industrial', 'Logística', 'Comercial', 'Agrícola']
+const categories = ['Todos', 'Industrial', 'Logística', 'Comercial', 'Agrícola', 'Fundações']
 
 export default function Gallery() {
   const [active, setActive] = useState('Todos')
@@ -151,12 +92,15 @@ export default function Gallery() {
               className={styles.item}
               onClick={() => setSelected(service)}
             >
-              {/* Imagem de fundo */}
+              {/* Imagem ou vídeo de fundo */}
               <div className={styles.itemImage}>
-                <img src={service.image} alt={service.title} />
+                {service.video ? (
+                  <video src={service.video} autoPlay loop muted playsInline />
+                ) : (
+                  <img src={service.image} alt={service.title} />
+                )}
               </div>
               <div className={styles.itemOverlay} />
-              <div className={styles.itemBg}>{service.icon}</div>
               <div className={styles.itemContent}>
                 <span className={styles.itemCat}>{service.category}</span>
                 <h3 className={styles.itemTitle}>{service.title}</h3>
@@ -191,8 +135,11 @@ export default function Gallery() {
         <div className={styles.modal} onClick={() => setSelected(null)}>
           <div className={styles.modalCard} onClick={e => e.stopPropagation()}>
             <div className={styles.modalImg}>
-              <img src={selected.image} alt={selected.title} />
-              <div className={styles.modalSvg}>{selected.icon}</div>
+              {selected.video ? (
+                <video src={selected.video} autoPlay loop muted playsInline controls />
+              ) : (
+                <img src={selected.image} alt={selected.title} />
+              )}
             </div>
             <div className={styles.modalBody}>
               <span className={styles.modalCat}>{selected.category}</span>

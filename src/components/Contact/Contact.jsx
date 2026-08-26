@@ -88,7 +88,7 @@ export default function Contact() {
                 </div>
                 <div>
                   <span className={styles.contactLabel}>Localização</span>
-                  <span className={styles.contactValue}>Região de Curitiba, PR</span>
+                  <span className={styles.contactValue}>Rua Francisco Ferreira da Rocha Loures, 7391 Campina do Taquaral, São José dos Pinhais — PR</span>
                 </div>
               </div>
 

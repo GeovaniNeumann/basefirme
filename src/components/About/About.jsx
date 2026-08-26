@@ -54,7 +54,7 @@ export default function About() {
             <div className={styles.imageWrapper}>
               <img src="/about.webp" alt="Estrutura Base Firme" className={styles.aboutImage} />
               <div className={styles.imageBadge}>
-                <span>A sua parceira em pré-montados</span>
+                <span>A sua parceira em pré-moldados</span>
               </div>
             </div>
           </div>

@@ -44,7 +44,7 @@ export default function Footer() {
             </p>
             <div className={styles.socials}>
               <a
-                href="https://facebook.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.social}
@@ -55,7 +55,7 @@ export default function Footer() {
                 </svg>
               </a>
               <a
-                href="https://instagram.com"
+                href="#"
                 target="_blank"
                 rel="noopener noreferrer"
                 className={styles.social}
@@ -86,7 +86,7 @@ export default function Footer() {
             <h4 className={styles.colTitle}>Navegação</h4>
             <ul className={styles.links}>
               <li><a href="#sobre">Sobre a Empresa</a></li>
-              <li><a href="#galeria">Galeria de Projetos</a></li>
+              <li><a href="#servicos">Galeria de Projetos</a></li>
               <li><a href="#contato">Solicitar Orçamento</a></li>
               <li>
                 <a
@@ -104,10 +104,10 @@ export default function Footer() {
           <div className={styles.col}>
             <h4 className={styles.colTitle}>Soluções</h4>
             <ul className={styles.links}>
-              <li><a href="#galeria">Galpões Industriais</a></li>
-              <li><a href="#galeria">Centros de Distribuição</a></li>
-              <li><a href="#galeria">Armazéns Agrícolas</a></li>
-              <li><a href="#galeria">Galpões Comerciais</a></li>
+              <li><a href="#servicos">Galpões Industriais</a></li>
+              <li><a href="#servicos">Centros de Distribuição</a></li>
+              <li><a href="#servicos">Armazéns Agrícolas</a></li>
+              <li><a href="#servicos">Galpões Comerciais</a></li>
             </ul>
           </div>
 
@@ -128,7 +128,7 @@ export default function Footer() {
                   <path d="M21 10c0 7-9 13-9 13s-9-6-9-13a9 9 0 0118 0z"/>
                   <circle cx="12" cy="10" r="3"/>
                 </svg>
-                <span>Região de Curitiba, PR</span>
+                <span> Rua Francisco Ferreira da Rocha Loures, 7391 Campina do Taquaral, São José dos Pinhais PR </span>
               </li>
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -143,10 +143,10 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copy}>
-            © {year} Base Firme — Estruturas e Galpões Pré-Montados. Todos os direitos reservados.
+            © {year} Base Firme Estruturas e Galpões Pré-Moldados. Todos os direitos reservados.
           </p>
           <p className={styles.dev}>
-            Desenvolvido por <a href="https://www.neumannwebsolutions.com.br/" target="_blank" rel="noopener noreferrer">Geovani Neumann</a>
+            Desenvolvido por <a href="https://www.neumannwebsolutions.com.br/" target="_blank" rel="noopener noreferrer">Neumann Web Solutions  </a>
           </p>
         </div>
       </div>
