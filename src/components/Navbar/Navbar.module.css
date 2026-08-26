@@ -84,11 +84,11 @@
 }
 
 .navLink:hover {
-  color: var(--accent, #ff4d4d);
+  color: var(--blue, #1a3a6b);
 }
 
 .navLink.active {
-  color: var(--accent, #ff4d4d);
+  color: var(--blue, #1a3a6b);
 }
 
 .navIndicator {
@@ -97,7 +97,7 @@
   left: 0;
   width: 0;
   height: 2px;
-  background: var(--accent, #ff4d4d);
+  background: var(--blue, #1a3a6b);
   transition: width 0.3s ease;
   border-radius: 2px;
 }
@@ -113,7 +113,7 @@
   align-items: center;
   gap: 10px;
   background: var(--accent, #ff4d4d);
-  color: #ffffff;
+  color: var(--dark, #1a1a1a);
   font-family: var(--font-display, sans-serif);
   font-size: 13px;
   font-weight: 700;
@@ -134,7 +134,7 @@
 
 .cta svg {
   transition: transform 0.2s ease;
-  stroke: #ffffff;
+  stroke: var(--dark, #1a1a1a);
 }
 
 .cta:hover svg {

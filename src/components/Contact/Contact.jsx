@@ -121,8 +121,9 @@ export default function Contact() {
             <form className={styles.form} onSubmit={submit}>
               <div className={styles.row}>
                 <div className={styles.field}>
-                  <label className={styles.label}>Nome completo *</label>
+                  <label className={styles.label} htmlFor="nome">Nome completo *</label>
                   <input
+                    id="nome"
                     className={styles.input}
                     type="text"
                     name="nome"
@@ -133,8 +134,9 @@ export default function Contact() {
                   />
                 </div>
                 <div className={styles.field}>
-                  <label className={styles.label}>Telefone</label>
+                  <label className={styles.label} htmlFor="telefone">Telefone</label>
                   <input
+                    id="telefone"
                     className={styles.input}
                     type="tel"
                     name="telefone"
@@ -146,8 +148,9 @@ export default function Contact() {
               </div>
 
               <div className={styles.field}>
-                <label className={styles.label}>E-mail</label>
+                <label className={styles.label} htmlFor="email">E-mail</label>
                 <input
+                  id="email"
                   className={styles.input}
                   type="email"
                   name="email"
@@ -159,8 +162,9 @@ export default function Contact() {
 
               <div className={styles.row}>
                 <div className={styles.field}>
-                  <label className={styles.label}>Tipo de obra</label>
+                  <label className={styles.label} htmlFor="tipo">Tipo de obra</label>
                   <select
+                    id="tipo"
                     className={styles.input}
                     name="tipo"
                     value={form.tipo}
@@ -173,8 +177,9 @@ export default function Contact() {
                   </select>
                 </div>
                 <div className={styles.field}>
-                  <label className={styles.label}>Área aprox. (m²)</label>
+                  <label className={styles.label} htmlFor="area">Área aprox. (m²)</label>
                   <input
+                    id="area"
                     className={styles.input}
                     type="number"
                     name="area"
@@ -187,8 +192,9 @@ export default function Contact() {
               </div>
 
               <div className={styles.field}>
-                <label className={styles.label}>Mensagem</label>
+                <label className={styles.label} htmlFor="mensagem">Mensagem</label>
                 <textarea
+                  id="mensagem"
                   className={`${styles.input} ${styles.textarea}`}
                   name="mensagem"
                   value={form.mensagem}

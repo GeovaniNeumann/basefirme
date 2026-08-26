@@ -83,7 +83,7 @@ export default function Footer() {
 
           {/* Links */}
           <div className={styles.col}>
-            <h4 className={styles.colTitle}>Navegação</h4>
+            <h3 className={styles.colTitle}>Navegação</h3>
             <ul className={styles.links}>
               <li><a href="#sobre">Sobre a Empresa</a></li>
               <li><a href="#servicos">Galeria de Projetos</a></li>
@@ -102,7 +102,7 @@ export default function Footer() {
 
           {/* Services */}
           <div className={styles.col}>
-            <h4 className={styles.colTitle}>Soluções</h4>
+            <h3 className={styles.colTitle}>Soluções</h3>
             <ul className={styles.links}>
               <li><a href="#servicos">Galpões Industriais</a></li>
               <li><a href="#servicos">Centros de Distribuição</a></li>
@@ -113,7 +113,7 @@ export default function Footer() {
 
           {/* Contact */}
           <div className={styles.col}>
-            <h4 className={styles.colTitle}>Contato</h4>
+            <h3 className={styles.colTitle}>Contato</h3>
             <ul className={styles.contactList}>
               <li>
                 <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2">
@@ -143,7 +143,7 @@ export default function Footer() {
 
         <div className={styles.bottom}>
           <p className={styles.copy}>
-            © {year} Base Firme Estruturas e Galpões Pré-Moldados. Todos os direitos reservados.
+            © {year} Base Firme — Estruturas e Galpões Pré-Moldados. Todos os direitos reservados.
           </p>
           <p className={styles.dev}>
             Desenvolvido por <a href="https://www.neumannwebsolutions.com.br/" target="_blank" rel="noopener noreferrer">Neumann Web Solutions  </a>

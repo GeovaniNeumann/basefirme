@@ -152,13 +152,13 @@
 
 .copy {
   font-size: 13px;
-  color: rgba(255, 255, 255, 0.35);
+  color: rgba(255, 255, 255, 0.65);
   line-height: 1.5;
 }
 
 .dev {
   font-size: 12px;
-  color: rgba(255, 255, 255, 0.25);
+  color: rgba(255, 255, 255, 0.55);
   line-height: 1.5;
 }
 
@@ -345,13 +345,13 @@
   .copy {
     font-size: 13px;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.4);
+    color: rgba(255, 255, 255, 0.65);
   }
 
   .dev {
     font-size: 12px;
     line-height: 1.5;
-    color: rgba(255, 255, 255, 0.3);
+    color: rgba(255, 255, 255, 0.55);
   }
 
   /* WhatsApp flutuante ajustado para mobile */

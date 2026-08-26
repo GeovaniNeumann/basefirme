@@ -313,7 +313,7 @@
   align-items: center;
   gap: 8px;
   background: #25D366;
-  color: white;
+  color: var(--dark);
   font-family: var(--font-display);
   font-size: 14px;
   font-weight: 700;

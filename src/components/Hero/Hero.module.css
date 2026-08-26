@@ -134,7 +134,7 @@
   align-items: center;
   gap: 10px;
   background: #25D366;
-  color: white;
+  color: var(--dark, #1a1a1a);
   font-family: var(--font-display, sans-serif);
   font-size: 14px;
   font-weight: 700;
